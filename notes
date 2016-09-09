@@ -1,0 +1,24 @@
+Integration with Wordpress
+
+-Set up MySQL database (Wamp Server)
+  password: mohamadyou=1
+  Run the following:
+    -CREATE DATABASE sahaab_db   //creates the db
+    -USE sahaab_db               // switch to db
+    -Set up the username and password for database: GRANT ALL PRIVILEGES ON sahaab_db.*
+                                                    TO 'ET_sahaab'@'localhost'
+                                                    IDENTIFIED BY 'you_sahaab_4091';
+
+
+
+-Set up Wordpress:
+  -Install the wordpress from the site
+  -Make sure the wamp is already installed, follow the installation guide from Lynda course: Downloads->Web Tutorials->Lynda Php and Mysql Training
+  -Copy the downloaded wordpress folder to wamp www folder
+  -Then visit localhost/wordpress  // this wordpress is the namme of folder in the www folder
+  -It will ask database credentials
+  -Then will ask Site details and login info
+     Username: muhammadyou
+     Password: mohamadyou=1
+
+  Source: http://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-on-your-windows-computer-using-wamp/
