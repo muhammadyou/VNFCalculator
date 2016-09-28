@@ -81,4 +81,4 @@ gulp.task('liveReload', function(){
     });
 })
 
-gulp.task('default', ['JS', 'HTML', 'templates', 'images', 'liveReload', 'watch']);  // loads all the task by just running 'gulp' in node
+gulp.task('default', ['JS', 'HTML', 'CSS', 'templates', 'images', 'liveReload', 'watch']);  // loads all the task by just running 'gulp' in node

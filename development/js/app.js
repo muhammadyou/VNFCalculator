@@ -1,4 +1,4 @@
-angular.module('myApp',['MyControllers', 'MyServices', 'ngMaterial', 'ui.router', 'ui.bootstrap', 'ngAnimate', 'chart.js', 'ngTable', 'nvd3', 'angular-svg-round-progressbar'])
+angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.router', 'ui.bootstrap', 'ngAnimate', 'chart.js', 'ngTable', 'nvd3', 'angular-svg-round-progressbar'])
     .run(function($rootScope, $window){
         $window.scrollTo(0, 50);
     })
